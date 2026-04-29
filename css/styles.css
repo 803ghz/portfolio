@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+*{
+padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color:#d2cfcc;
+  color: #373737;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover; 
+}
+
+.container {
+    max-width: 600px;
+    padding: 40px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+.full-screen-banner {
+    width: 100%;
+    height: 100vh; /* 100% de la altura de la pantalla */
+    
+    /* El GIF de fondo */
+    background-image: url('./img/banner.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Opcional: el fondo se queda quieto al hacer scroll */
+
+    /* Centrado total del contenido */
+    display: flex;
+    flex-direction: column; /* Pone el nombre debajo de la foto */
+    justify-content: center;
+    align-items: center;
+    
+    color: #373737; /* Tu color de texto */
+    font-family: 'Inter', sans-serif;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #d2cfcc; /* Tu color de borde */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+}
