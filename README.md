@@ -1,7 +1,7 @@
 ## ¿Qué es este proyecto?
 
-- Este proyecto es un portfolio realizado con distintos tipos de código. 
+- Este proyecto es un portfolio donde se pondrá en práctica todo lo aprendido durante el bootcamp. 
 
 ## Tecnología utilizada
 
-- Vamos a utilizar HTML, CSS y varios lenguajes para construir nuestra página web, después, usaremos Git para subir los archivos a nuestro repositorio en Github y mantenerlo todo actualizado.
+- Aquí vamos a utilizar HTML, CSS y varios lenguajes de código para construir nuestra página web desde cero. Después, usaremos Git para subir los archivos a nuestro repositorio en Github y de esta manera mantenerlo todo actualizado.
