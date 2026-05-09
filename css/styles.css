@@ -184,7 +184,7 @@ p {
 .contacto:hover {
     transform: translateY(-8px) scale(1.03);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
-    border-left-color: #a2e5bb; /* O el color que prefieras */
+    border-left-color: #a2e5bb;
     cursor: pointer;
 }
 
